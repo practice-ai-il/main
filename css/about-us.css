@@ -24,6 +24,31 @@
     box-sizing: border-box;
 }
 
+/* Screen reader only - for accessibility */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.skip-to-main:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+}
+
 .about-container {
     font-family: var(--font-primary);
     direction: rtl;

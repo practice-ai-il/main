@@ -1,0 +1,32 @@
+# robots.txt for בינה מלאכותית בגובה העיניים
+
+User-agent: *
+Allow: /
+Disallow: /js/
+Disallow: /css/
+
+# Sitemaps
+Sitemap: https://eye-level-ai.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

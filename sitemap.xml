@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://eye-level-ai.com/</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://eye-level-ai.com/images/og-image.jpg</image:loc>
+      <image:title>בינה מלאכותית בגובה העיניים - פתרונות AI לעסקים</image:title>
+      <image:caption>מובילים את מהפכת ה-AI בישראל עם פתרונות מותאמים אישית</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://eye-level-ai.com/images/team/bar.png</image:loc>
+      <image:title>בר שאלתיאל - מייסד ומנכ״ל משותף</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://eye-level-ai.com/images/team/asher.jpg</image:loc>
+      <image:title>אשר מורגנשטרן - מייסד וסמנכ״ל טכנולוגיה</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://eye-level-ai.com/images/team/yuval.png</image:loc>
+      <image:title>יובל ביאליק - מייסד שותף ואחראי פיתוח עסקי</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.ibb.co/Gv5ssYvy/roie.jpg</image:loc>
+      <image:title>רועי אדרי - מנכ״ל החברה ואחראי טכנולוגיה</image:title>
+    </image:image>
+  </url>
+</urlset>

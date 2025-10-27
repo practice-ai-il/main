@@ -37,6 +37,11 @@ git push -u origin main
 ### 4️⃣ גלוש לאתר שלך! 🎉
 
 ```
+https://eye-level-ai.com/
+```
+
+**או** אם אתה משתמש ב-GitHub Pages ללא דומיין מותאם:
+```
 https://YOUR-USERNAME.github.io/about-us-page/
 ```
 

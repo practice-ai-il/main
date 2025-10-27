@@ -82,6 +82,22 @@ git push
 
 ## פתרון בעיות נפוצות
 
+### שגיאת Jekyll: "Unknown tag 'static'"
+
+אם תקבל שגיאה כזו ב-GitHub Actions, זה אומר ש-Jekyll מנסה לעבד את הקבצים. הפתרון:
+
+**הקובץ `.nojekyll` כבר כלול בפרויקט!** זה אומר ל-GitHub Pages לא להשתמש ב-Jekyll ולשרת את הקבצים כמו שהם.
+
+אם השגיאה עדיין מופיעה:
+1. ודא שהקובץ `.nojekyll` הועלה ל-repository
+2. הרץ:
+```bash
+touch .nojekyll
+git add .nojekyll
+git commit -m "Add .nojekyll to disable Jekyll processing"
+git push
+```
+
 ### שגיאת אימות ב-push
 
 אם אתה מקבל שגיאת אימות, תצטרך ליצור Personal Access Token:

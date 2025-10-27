@@ -26,6 +26,8 @@ git push -u origin main
 
 **זכור להחליף `YOUR-USERNAME` בשם המשתמש שלך ב-GitHub!**
 
+⚠️ **חשוב:** הקובץ `.nojekyll` כלול ומונע מ-Jekyll לעבד את הקבצים - זה נדרש כדי שהדף יעבוד!
+
 ### 3️⃣ הפעל GitHub Pages
 
 1. עבור אל Settings > Pages

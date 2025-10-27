@@ -830,8 +830,8 @@
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 }
 
 .team-member {
@@ -1340,14 +1340,18 @@
     .hero-visual {
         display: none;
     }
-    
+
     .problem-grid,
     .benefits-grid,
     .services-grid,
     .process-steps,
-    .team-grid,
     .stats-grid {
         grid-template-columns: 1fr;
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
     }
     
     .contact-buttons {
@@ -1419,18 +1423,22 @@
         width: 100%;
         justify-content: center;
     }
-    
+
     .hero-badge {
         flex-direction: column;
         gap: 5px;
     }
-    
+
     .problem-card,
     .benefit-card,
     .service-card,
     .step,
     .team-member {
         padding: 30px 20px;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
     }
 }
 
